@@ -2,6 +2,7 @@ import 'package:_encapsulation_and__polymorphism/task_1.dart';
 import 'package:_encapsulation_and__polymorphism/task_2.dart';
 import 'package:_encapsulation_and__polymorphism/task_3.dart';
 import 'package:_encapsulation_and__polymorphism/task_4.dart';
+import 'package:_encapsulation_and__polymorphism/task_5.dart';
 
 void main() {
   final items = <Executable>[
@@ -15,6 +16,8 @@ void main() {
     Bird(), Fish(), Insect(),
     // asos Food
     Burger(), Pizza(), Sushi(),
+    // asos Media
+    Video(), Music(), Podcast(),
 
   ];
 
