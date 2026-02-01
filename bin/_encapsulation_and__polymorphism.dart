@@ -4,6 +4,8 @@ import 'package:_encapsulation_and__polymorphism/task_3.dart';
 import 'package:_encapsulation_and__polymorphism/task_4.dart';
 import 'package:_encapsulation_and__polymorphism/task_5.dart';
 import 'package:_encapsulation_and__polymorphism/task_6.dart';
+import 'package:_encapsulation_and__polymorphism/task_7.dart';
+import 'package:_encapsulation_and__polymorphism/task_8.dart';
 
 void main() {
   final items = <Executable>[
@@ -21,6 +23,10 @@ void main() {
     Video(), Music(), Podcast(),
     // asos Fruit
     Orange(), Lemon(), Strawberry(),
+    // asos Shape
+    Rectangle(), Circle(), Triangle(),
+    // asos Shape2
+    Rectangle2(5, 3), Square(4), Circle2(2),
 
   ];
 
