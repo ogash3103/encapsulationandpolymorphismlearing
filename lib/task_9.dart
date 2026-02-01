@@ -34,9 +34,9 @@ class Circle3 extends Shape3 {
 
 
 void main() {
-  final shape = Rectangle3(5, 4);
+  final rectangle = Rectangle3(5, 4);
   final circle = Circle3(3);
 
-  shape.printArea(shape);   // Rectangle area
-  shape.printArea(circle);  // Circle area
+  rectangle.printArea(rectangle);   // Rectangle area
+  circle.printArea(circle);  // Circle area
 }
