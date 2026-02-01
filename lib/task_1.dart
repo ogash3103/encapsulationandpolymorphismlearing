@@ -1,5 +1,15 @@
-abstract class Vehicle {
+abstract class Executable {
+  void execute();
+}
+
+
+abstract class Vehicle implements Executable{
   void drive();
+
+  @override
+  void execute() {
+    drive();
+  }
 }
 
 class Car extends Vehicle {
